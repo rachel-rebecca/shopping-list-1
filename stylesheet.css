@@ -124,4 +124,18 @@ h2 {
         margin: auto;
         
     }
+    
+    /* phone view */
+    
+    @media (max-width: 480px) {
+    button {
+        font-family: monospace;
+        font-size: 1em;
+        background-color: coral;
+        color: #7e317e;
+        border-radius: 10px;
+        border: 0;
+        transition-duration: 0.4s;
+    }
+}
 }
