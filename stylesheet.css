@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(235, 226, 175);
+}
+
+h1{
+    font-family: monospace;
+    font-size: 6em;
+    text-align: center;
+    color:hsl(300, 44%, 34%);
+    text-shadow: .15em .15em .15em coral;
+}
+
+input {
+    font-family: monospace;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 3em;
+    width: 20em;
+
+}
+
+button {
+    font-family: monospace;
+    font-size: 2em;
+    background-color: coral;
+    color: #7e317e;
+    border-radius: 10px;
+    border: 0;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #7e317e;
+    color: coral;
+}
+
+.addRemoveDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.addButton {
+    width: 20%;
+    height: 50px;
+    align-content: space-around;
+    margin: auto;
+    
+}
+
+.removeButton {
+    width: 20%;
+    height: 50px;
+    align-content: space-around;
+    margin: auto;
+    
+}
+
+.clearList {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin: .5em;
+    padding: auto;
+}
+
+.clearButtonDiv {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 14em;
+}
+
+
+.displayList {
+    display: flex;
+    /* margin-top: 100px;
+    margin-bottom: 5px;
+    width: 100%;
+    position: inherit; */
+    width: 30em;
+    height: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-family: monospace;
+    color: coral;
+    text-shadow: .1em .1em .1em hsl(300, 44%, 34%);
+    font-size: 4em;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    
+}
+
+#bulletList {
+    font-family: monospace;
+    font-size: 2em;
+    color: hsl(300, 44%, 34%);
+    justify-content: center;
+    margin: auto;
+}
+
+/* large desktop view */
+
+@media (min-width: 768px) {
+    .addButton {
+        width: 10%;
+        height: 50px;
+        align-content: space-around;
+        margin: auto;
+        
+    }
+    
+    .removeButton {
+        width: 13%;
+        height: 50px;
+        align-content: space-around;
+        margin: auto;
+        
+    }
+}
