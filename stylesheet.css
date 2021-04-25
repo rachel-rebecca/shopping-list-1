@@ -140,7 +140,7 @@ h2 {
     }
         
        .addButton {
-        width: 13%;
+        width: 20%;
         height: 50px;
         align-content: space-around;
         margin: auto;
@@ -148,7 +148,7 @@ h2 {
     }
     
     .removeButton {
-        width: 17%;
+        width: 20%;
         height: 50px;
         align-content: space-around;
         margin: auto;
