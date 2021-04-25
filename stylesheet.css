@@ -128,6 +128,7 @@ h2 {
     /* phone view */
     
     @media (max-width: 480px) {
+        
     button {
         font-family: monospace;
         font-size: 10px;
@@ -136,6 +137,22 @@ h2 {
         border-radius: 10px;
         border: 0;
         transition-duration: 0.4s;
+    }
+        
+       .addButton {
+        width: 13%;
+        height: 50px;
+        align-content: space-around;
+        margin: auto;
+        
+    }
+    
+    .removeButton {
+        width: 17%;
+        height: 50px;
+        align-content: space-around;
+        margin: auto;
+        
     }
 }
 }
