@@ -8,4 +8,4 @@ The webapp should allow the user to:
 2. remove specified item by typing them into the text box.
 3. clear the list to start over.
 
-This was also modified from code that runs completely in the console. Both files are included, but only script2 is linked with the html file.
+This was also modified from code that runs completely in the console. This was my first attempt using functions and working in the actual webpage independently.
